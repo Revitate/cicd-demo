@@ -1,3 +1,4 @@
+// test/e2e.spect.ts
 import request from 'supertest'
 import { app } from '../src/app'
 
@@ -6,8 +7,8 @@ describe('Sample Test', () => {
     expect(true).toBe(true)
   })
 
-  it('should test that false === false', () => {
-    expect(false).toBe(false)
+  it('should be fail!', () => {
+    expect(true).toBe(false)
   })
 
   it("should return 'Express + TypeScript Server (v1.0.0)'", async () => {
