@@ -1,1 +1,1 @@
-terraform output -json > terraform.json
+terraform output -json > output.json
